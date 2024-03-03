@@ -4,7 +4,7 @@ body {
     background-color: #e8dcdc;
     margin: 0;
     padding: 0;
-    background-image: url(game.jpg);
+    background-image: url(game3.jpg);
 }
 
 .container {
@@ -14,9 +14,9 @@ body {
 }
 
 h1 {
-    color: #e70505;
-    font-size: 50px;
-    margin-bottom: 20px;
+    color: #0a0a0a;
+    font-size: 60px;
+    margin-bottom: 30px;
     animation: fadeInUp 1s ease-out;
 }
 h2{
@@ -68,8 +68,8 @@ input[type="number"]:focus {
 
 button {
     padding: 12px 40px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #131415;
+    color: #dfd7d7;
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -91,7 +91,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #077bf7;
 }
 
 #message {
