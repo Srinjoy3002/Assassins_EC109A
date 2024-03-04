@@ -17,11 +17,16 @@
         <h2>Guess a number between 1 and 100:</h2>
         <input type="text" id="guess-input">
         <button id="submit-button">Submit</button>
-        <div id="message"></div>       
+        <div id="message"></div>
+        <div class="rule-box">Guess the number correctly in the first attempt, you score a century!
+        
+        With each subsequent guess, 10 points are deducted from your score.
+        The maximum score achievable is 100, and the minimum score is 0.</div>
         <div id="guess-count">Guess Count: 0</div>
         <button id="retry-button" style="display: none;">Retry</button>
     </div>
     <script src="game.js"></script>
+    
 </body>
 
 </html>
