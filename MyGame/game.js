@@ -47,3 +47,15 @@ function startGame() {
 
 
 document.getElementById('game-container').style.display = 'none';
+// JavaScript
+function displayCongrats() {
+    const message = document.getElementById('message');
+    message.textContent = 'Congratulations! You guessed the correct number!';
+    message.classList.add('congrats-animation');
+
+    // Remove the animation class after animation completes
+    setTimeout(() => {
+        message.classList.remove('congrats-animation');
+    }, 1000);
+}
+
