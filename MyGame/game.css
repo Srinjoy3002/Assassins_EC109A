@@ -8,6 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url(game3.jpg);
+
 }
 
 #start-menu,
@@ -24,7 +25,7 @@ body {
     width: 80%;
     max-width: 500px;
     margin: 0 auto;
-    animation: fadeIn 1s forwards;
+    animation: fadeIn 2.5s forwards;
 }
 
 #retry-button {
@@ -40,6 +41,25 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+/* CSS */
+@keyframes congrats {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.congrats-animation {
+    animation: congrats 2s forwards;
 }
 
 @keyframes rotate {
@@ -67,12 +87,12 @@ button {
     border: none;
     background-color: #007bff;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
     font-family: "Arial", sans-serif;
-    
+
 }
 
 button:hover {
@@ -86,7 +106,7 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-family: "Arial", sans-serif;
-    
+
 }
 
 
@@ -94,37 +114,34 @@ input[type="text"] {
     margin-top: 20px;
     font-size: 18px;
     font-family: "Arial", sans-serif;
-    
+
 }
 
 
 h1 {
-    margin-bottom: 20px;
-    font-family: "Arial", sans-serif;
-    color: #432930;
+    margin-bottom: 30px;
+    font-family: "Stencil", sans-serif;
+    color: #530518;
     border: #f4eded;
-    
-  
+
+
 }
+
 h2 {
-    margin-bottom: 40px;
-    font-family: "Arial", sans-serif;
-    color: rgb(74, 9, 81);
+    margin-bottom: 50px;
+    font-family: "Harrington", sans-serif;
+    color: rgb(46, 1, 44);
 
-   
+
 }
 
-#score {
-    margin-top: 10px;
-    font-family: "Arial", sans-serif;
-   
-}
+
 
 #guess-count {
-    margin-top: 30px;
-    font-family: "Arial", sans-serif;
-    
-    
+    margin-top: 100px;
+    font-family: "Lucida bright", sans-serif;
     font-weight: bold;
-    
+
+
+
 }
