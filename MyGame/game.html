@@ -4,27 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guessing Game</title>
+    <title>Number Guessing Game</title>
     <link rel="stylesheet" href="game.css">
-
 </head>
 
-
 <body>
-
-    <h1>Guess kar k dikhao</h1>
-
-    <h2>I'm thinking of a number between 1 and 100. Can you guess it?</h2>
-
-    <input type="number" id="guess" min="1" max="100">
-    <button onclick="checkGuess()">Guess</button>
-    
-
-    <p id="message"></p>
-
+    <div id="start-menu">
+        <h1>Number Guessing Game</h1>
+        <button id="start-button">Start</button>
+    </div>
+    <div id="game-container">
+        <h2>Guess a number between 1 and 100:</h2>
+        <input type="text" id="guess-input">
+        <button id="submit-button">Submit</button>
+        <div id="message"></div>       
+        <div id="guess-count">Guess Count: 0</div>
+        <button id="retry-button" style="display: none;">Retry</button>
+    </div>
     <script src="game.js"></script>
-
-
 </body>
 
 </html>
